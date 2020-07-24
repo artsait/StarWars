@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div>
+    <header>
+        <h1 class="header-title">Персонажи StarWars</h1>
+    </header>
+    <article>
+        <div class="form">
+            <h3 class="form-title">Введите число и получите персонажа:</h3>
+            <form>
+                <input type="number" class="form-input" id="input">
+                <button type="submit" class="form-button" id="button">Найти</button>
+            </form>
+            <div class="form-message" id="message"></div>
+        </div>
+
+        <div class="content" id="content">
+            <div class="content-specifications">
+                <div class="content-specifications__label">
+                    Имя: <span class="content-specifications__data" id="name"></span>
+                </div>
+                <div class="content-specifications__label">
+                    Планета: <span class="content-specifications__data" id="planet"></span>
+                </div>
+            </div>
+            <div class="content-rectangle"></div>
+        </div>
+    </article>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
